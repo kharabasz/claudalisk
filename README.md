@@ -4,21 +4,22 @@
 
 # Claudalisk
 
-Reusable Claude Code configuration and guardrails for your projects. Pull it in and every project gets the same safety rails and agent setup, with no files copied by hand.
+An opinionated [Claude Code](https://code.claude.com) plugin for **vibe-crafting** .NET + React applications.
 
-> **Status: early.** The design is still being worked out. Nothing here is ready to use yet.
+Vibe-coding is fast but drifts. Claudalisk keeps the speed and adds the craft: you describe what you want, and Claude builds it inside a fixed architecture, through a fixed workflow, with guardrails that catch it when it strays.
 
-## What it will provide
+> **Status: early.** The design is still being worked out ([#1](https://github.com/kharabasz/claudalisk/issues/1)). Nothing here is ready to use yet.
 
-| Part | How a project gets it |
-|---|---|
-| Claude skills, slash commands, subagents | A Claude Code plugin. This repo is also a plugin marketplace. |
-| Guardrails: prod safety, merge gate, destructive-command blocks | Plugin hooks, driven by a per-project config file |
-| Generic agent guidance | A plugin skill and/or a scaffolded `AGENTS.md` section |
+## What it does
+
+- **Opinionated.** One stack, one architecture and one way of working, so neither you nor Claude has to decide the structural things again.
+- **Guided.** Skills and subagents for the recurring moves, from starting a new app to taking an issue through to a merged pull request.
+- **Guardrailed.** Hooks and tests check the rules, so they don't depend on a prompt being followed.
+- **Layered on Claude.** It adds to Claude Code's built-in behaviour rather than replacing it, and loads its knowledge only when the work needs it.
 
 ## Security
 
-Hooks from this repo run with full access on your machine. **Pin a tag or commit SHA. Never track `main`.**
+Hooks from this repo run with full access on your machine. **Pin a released version. Never track `main`.**
 
 ## Licence
 
