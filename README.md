@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/logo.png" alt="Claudalisk" width="720">
+  <img src="docs/assets/logo-wide.png" alt="Claudalisk" width="720">
 </p>
 
 # Claudalisk
